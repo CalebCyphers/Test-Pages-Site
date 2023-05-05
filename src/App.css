@@ -1,0 +1,139 @@
+html {
+  height: 100vh;
+  width: 100%;
+  background: black;;
+  color: grey
+}
+
+body {
+ height: 100vh;
+}
+
+.my-image{
+  height: auto;
+  width: 250px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.text {
+  padding-top: 190px;
+
+}
+
+
+main{
+  height:100%;
+  width:100%;
+  display: inline-flex;
+  flex-direction:column;
+  align-items: center;
+  border-color: white;
+  box-shadow: 0 0 3px 3px;
+}
+
+.button {
+  border: none;
+  text-transform: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin: 4px 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  min-width:150px; 
+ 
+}
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid green;
+}
+
+.button1:hover {
+  background-color: green;
+  color:black;
+    box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green, 0 0 200px green;
+  
+}
+
+.button2 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid red;
+}
+
+.button2:hover {
+  background-color: red;
+  color: black;
+  box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+}
+
+.button3 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid blue;
+}
+
+.button3:hover {
+  background-color: blue;
+  color: black;
+   box-shadow: 0 0 5px blue, 0 0 25px blue, 0 0 50px blue, 0 0 100px blue, 0 0 200px blue;
+}
+
+p {
+  max-width:400px;
+  font-size: 25px;
+  font-family: cursive;
+  opacity: 100%;
+  transition: opacity 1s;
+  font-size: 1.2rem;
+}
+
+.hide{
+  display: none
+}
+
+.button2:hover + hide {
+  display: block
+}
+
+.invisible {
+  opacity: 0%;
+}
+
+.button-container {
+  max-width: 150px;
+   margin: 4px 10px;
+}
+
+.buttons-wrapper {
+  display:flex
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutAnimation {
+	100% {
+		opacity: 0;
+	}
+	0% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
